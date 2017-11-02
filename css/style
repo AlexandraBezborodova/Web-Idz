@@ -1,0 +1,16 @@
+body {
+    background: #fac9f0 url(img/fon.png); /* Цвет фона и путь к файлу */
+    color: #960591; /* Цвет текста */
+   }
+
+    table {
+     border-collapse: collapse; /* Отображать двойные линии как одинарные */
+    }
+    th {
+     background: #c3abc5; /* Цвет фона */
+     text-align: left; /* Выравнивание по левому краю */
+    }
+    td, th {
+     border: 1px solid #800; /* Параметры границы */
+     padding: 4px; /* Поля в ячейках */
+    } 

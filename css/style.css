@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale|Lobster|Neucha|Oswald|Pattaya|Rubik+Mono+One|Russo+One');
+body {
+    background: #fac9f0 url(D:/Веб/Project/www/img/fon.png); /* Цвет фона и путь к файлу */
+    color: #960591; /* Цвет текста */
+   font-family: 'Kurale', serif;
+   }
+
+    table {
+      border-collapse: collapse; /* Отображать двойные линии как одинарные */
+      border-spacing: 0; 
+      border:3;
+      border-color: blue;
+    }
+    th {
+     background: #c3abc5; /* Цвет фона */
+     text-align: left; /* Выравнивание по левому краю */
+    }
+    td, th {
+     border: 1px solid #800; /* Параметры границы */
+     padding: 4px; /* Поля в ячейках */
+    } 
+    h1 {
+        border: 2px dashed;
+        padding: 4px; /* Поля вокруг текста */
+        border-color: #932ab1;
+        color: #a435b1; /* Цвет текста */
+        background: #ffa2ea ; /* Цвет фона и путь к файлу */
+        font-family: 'Pattaya', sans-serif;
+        font-size: 250%;
+    } 
+   td { padding: 4px;
+   }
+   tr:hover {
+    background: #f8eefd; /* Меняем цвет фона строки таблицы */ 
+   }
+ .p1,.p2,.p3{
+    color:#1b011d;
+  }
+  .semilayer,.s2,.s3{
+    padding: 5px; /* Поля вокруг текста */
+    background: #db8df1; /* Цвет фона */
+    margin: 0 auto; /* Выравниваем слой по центру */
+    width: 90%; /* Ширина слоя */
+    opacity: 0.7; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+  }
+
+.film{
+   /* margin-right: 50%;*/
+   height: 300px;
+    background: #f9b5ef; /* Цвет фона */
+    border: 2px dashed;
+    margin-top: 5%;
+}
+.ost{
+    margin-right: 10%;
+    border:2px;
+      background: #f9b5ef; /* Цвет фона */
+    border: 2px dashed; 
+}
+ #kh { z-index: 2; width: 940px; height: 450px; background: #009cff url('D:/Веб/Project/www/orbit/loading.gif') no-repeat center center; overflow: hidden; }
+a {
+    color: #fbfafd ; /* Цвет ссылок */
+   }
+   a:visited {
+    color: purple; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
+
+ .flex-conteiner{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -flex;
+    display: flex;
+   -webkit-justify-content: space-around; 
+    justify-content: space-around;
+    -webkit-align-items: center; 
+    align-items: center;
+     height: 400px;
+  
+}
+
+.photo{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center; 
+  justify-content: center;
+  z-index: 3;
+}
+
+footer{
+   background: #fac9f0 ;
+   border: 2px dashed; 
+}
+
+#kk{
+  margin-left: 5px;
+}
+
+.self img {
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgb(150, 5, 145);
+}
+#b1{
+  z-index: 4;
+}
